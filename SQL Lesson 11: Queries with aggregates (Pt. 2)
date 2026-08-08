@@ -1,0 +1,13 @@
+SQL Lesson 11: Queries with aggregates (Pt. 2)
+
+1.Find the number of Artists in the studio (without a HAVING clause)
+SELECT role, count(*) FROM employees
+where role="Artist";
+
+2.Find the number of Employees of each role in the studio
+SELECT role,count(*) FROM employees
+group by role;
+
+3.Find the total number of years employed by all Engineers
+SELECT *,sum(years_employed) FROM employees
+where role="Engineer";
