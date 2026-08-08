@@ -1,7 +1,7 @@
-## refer : https://sqlbolt.com/lesson/select_queries_introduction
+## refer : https://sqlbolt.com/lesson
 NAME IN DOUBLE QUOTES ARE CASE SENSITIVE SHOULD BE SAME AS MENTIONED IN TABLE 
 <img width="495" height="236" alt="image" src="https://github.com/user-attachments/assets/6e96b63f-b765-4654-b094-afb01f19ef7d" />
-![Uploading image.png…]()
+
 
 
 
@@ -221,3 +221,20 @@ DROP column_to_be_deleted;
 ALTER TABLE mytable
 RENAME TO new_table_name;
 
+## SUBQUERIES
+CORRELATED SUBQUERIES
+SELECT *
+FROM employees
+WHERE salary > 
+   (SELECT AVG(revenue_generated)
+    FROM employees AS dept_employees
+    WHERE dept_employees.department = employees.department);
+
+### SQL Topic: Unions, Intersections & Exceptions
+SELECT column, another_column
+   FROM mytable
+UNION / UNION ALL / INTERSECT / EXCEPT
+SELECT other_column, yet_another_column
+   FROM another_table
+ORDER BY column DESC
+LIMIT n;
