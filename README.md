@@ -1,3 +1,8 @@
+##refer : https://sqlbolt.com/lesson/select_queries_introduction
+
+
+
+
 # Database Normalization
 
 ## What is Database Normalization?
