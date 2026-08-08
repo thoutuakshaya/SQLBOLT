@@ -1,0 +1,10 @@
+SQL Lesson 15: Deleting rows
+
+1.This database is getting too big, lets remove all movies that were released before 2005.
+delete from movies where year <2005;
+
+2.Andrew Stanton has also left the studio, so please remove all movies directed by him.
+select * from movies where director ="Andrew Stanton";
+after checking like this
+do 
+delete from movies where director ="Andrew Stanton";
