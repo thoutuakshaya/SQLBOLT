@@ -174,3 +174,10 @@ SET column = value_or_expr,
     other_column = another_value_or_expr, 
     …
 WHERE condition;
+
+
+## DELETING
+FIRST APPLY ON SELECT QUERY AFTER CHECKING DO DELETE OR UPDATE OPTIONSS SUCH THAT IT IS ALWAYS BEING TAKEN CATE OF
+DELETE FROM mytable
+WHERE condition;
+
