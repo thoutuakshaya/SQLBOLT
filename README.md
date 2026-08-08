@@ -1,5 +1,5 @@
 ## refer : https://sqlbolt.com/lesson/select_queries_introduction
-
+NAME IN DOUBLE QUOTES ARE CASE SENSITIVE SHOULD BE SAME AS MENTIONED IN TABLE 
 
 
 
@@ -165,3 +165,12 @@ VALUES (value_or_expr, another_value_or_expr, …),
        (value_or_expr_2, another_value_or_expr_2, …),
        …;
 
+
+## updating
+Update statement with values
+QUERY
+UPDATE mytable
+SET column = value_or_expr, 
+    other_column = another_value_or_expr, 
+    …
+WHERE condition;
