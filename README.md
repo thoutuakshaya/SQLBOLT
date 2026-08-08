@@ -1,4 +1,4 @@
-##refer : https://sqlbolt.com/lesson/select_queries_introduction
+# refer : https://sqlbolt.com/lesson/select_queries_introduction
 
 
 
@@ -138,3 +138,7 @@ Both return **only the matching rows**.
 - INNER JOIN = JOIN.
 - Returns only matching rows.
 - `ON` specifies the matching condition.
+
+- LEFT JOIN keeps all rows from the primary left table.Missing matches from the right table become NULL.WHERE right_table.column IS NULL filters out everything except unmatched data.
+- join structure
+# LEFT JOIN table name ON table1.name=table.name 
