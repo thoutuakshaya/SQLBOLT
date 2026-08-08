@@ -143,3 +143,6 @@ Both return **only the matching rows**.
 - join structure
 # LEFT JOIN table name ON table1.name=table.name 
 In addition to querying and referencing raw column data with SQL, you can also use expressions to write more complex logic on column values in a query= ( / % *)
+
+<img width="430" height="200" alt="image" src="https://github.com/user-attachments/assets/7d97cd8a-65d1-4e0d-98fd-fa84fa1efc9a" />
+
