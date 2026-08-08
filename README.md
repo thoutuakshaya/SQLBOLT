@@ -1,4 +1,4 @@
-# refer : https://sqlbolt.com/lesson/select_queries_introduction
+## refer : https://sqlbolt.com/lesson/select_queries_introduction
 
 
 
@@ -142,3 +142,4 @@ Both return **only the matching rows**.
 - LEFT JOIN keeps all rows from the primary left table.Missing matches from the right table become NULL.WHERE right_table.column IS NULL filters out everything except unmatched data.
 - join structure
 # LEFT JOIN table name ON table1.name=table.name 
+In addition to querying and referencing raw column data with SQL, you can also use expressions to write more complex logic on column values in a query= ( / % *)
