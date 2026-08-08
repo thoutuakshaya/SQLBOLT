@@ -181,3 +181,25 @@ FIRST APPLY ON SELECT QUERY AFTER CHECKING DO DELETE OR UPDATE OPTIONSS SUCH THA
 DELETE FROM mytable
 WHERE condition;
 
+
+## CREATING TABLE
+create table Database(
+Name TEXT,
+Version FLOAT,
+Download_count INTEGER)
+
+<img width="420" height="319" alt="image" src="https://github.com/user-attachments/assets/2c861cae-90b6-4578-8b40-5e560679977f" />
+
+<img width="409" height="329" alt="image" src="https://github.com/user-attachments/assets/0984d98a-f7d9-4957-a124-238f4043f37e" />
+
+EXAMPLE
+Movies table schema
+CREATE TABLE movies (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    director TEXT,
+    year INTEGER, 
+    length_minutes INTEGER
+);
+
+
