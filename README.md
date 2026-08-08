@@ -153,3 +153,15 @@ WHERE condition
 GROUP BY column
 HAVING group_condition;
 
+
+# SCHEMA
+For example, in our Movies table, the values in the Year column must be an Integer, and the values in the Title column must be a String.
+## Inserting new data
+When inserting data into a database, we need to use an INSERT statement, which declares which table to write into, the columns of data that we are filling, and one or more rows of data to insert. In general, each row of data you insert should contain values for every corresponding column in the table. You can insert multiple rows at a time by just listing them sequentially.
+
+Insert statement with values for all columns
+INSERT INTO mytable
+VALUES (value_or_expr, another_value_or_expr, …),
+       (value_or_expr_2, another_value_or_expr_2, …),
+       …;
+
