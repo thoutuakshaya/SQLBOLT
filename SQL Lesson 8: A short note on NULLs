@@ -1,0 +1,9 @@
+SQL Lesson 8: A short note on NULLs
+
+1.Find the name and role of all employees who have not been assigned to a building 
+SELECT * FROM employees where building is Null;
+
+2.Find the names of the buildings that hold no employees
+SELECT building_name FROM buildings
+left join  employees on buildings.Building_name==employees.Building
+where employees.name is null;
