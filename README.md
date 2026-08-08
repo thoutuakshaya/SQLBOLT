@@ -1,5 +1,8 @@
 ## refer : https://sqlbolt.com/lesson/select_queries_introduction
 NAME IN DOUBLE QUOTES ARE CASE SENSITIVE SHOULD BE SAME AS MENTIONED IN TABLE 
+<img width="495" height="236" alt="image" src="https://github.com/user-attachments/assets/6e96b63f-b765-4654-b094-afb01f19ef7d" />
+![Uploading image.png…]()
+
 
 
 
@@ -202,4 +205,19 @@ CREATE TABLE movies (
     length_minutes INTEGER
 );
 
+## ALTER TABLE
+### ADD
+### DROP
+### MODIFY
+### RENAME
+
+ALTER TABLE mytable
+ADD column DataType OptionalTableConstraint 
+    DEFAULT default_value;
+    
+ALTER TABLE mytable
+DROP column_to_be_deleted;
+
+ALTER TABLE mytable
+RENAME TO new_table_name;
 
